@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    /* letter bolding */
+    font-weight: 400;
+    text-decoration: #f78120 underline wavy;
+    letter-spacing: 15px;
+}
+
+a {
+    /* removes underline */
+    text-decoration: none;
+    color: #a614369b;
+}
