@@ -97,3 +97,8 @@ section[class="post"] {
 a[href*="google"] {
     color: #1d3557;
 }
+
+/* matches any substring that end with .org */
+a[href$=".org"] {
+    color: #1d3557;
+}
