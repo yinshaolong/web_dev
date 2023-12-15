@@ -14,10 +14,15 @@ h2 {
     /* letter bolding */
     font-weight: 400;
     text-decoration: #f78120 underline wavy;
-    letter-spacing: 15px;
-    font-size: 80px;
+    letter-spacing: 5px;
+    font-size: 30px;
     /* second is a backup */
     font-family: 'Segoe UI', Verdana, sans-serif, sans-serif;
+}
+
+/* later styles override earlier styles */
+h1 {
+    font-weight: 700;
 }
 
 a {
@@ -35,8 +40,6 @@ a {
 li a {
     color: teal;
 }
-
-s
 
 /* id selector */
 #signup {
@@ -68,4 +71,29 @@ footer a {
 /* adjacent sibling selector */
 h2+button {
     font-size: 20px;
+}
+
+/* direct descendant selector */
+/* selects all <a> that are direct descendants of <footer> */
+footer>a {
+    color: #457b9d;
+}
+
+input[type="password"] {
+    color: red;
+}
+
+section.post {
+    background-color: #f1faee;
+}
+
+/* same as below */
+/* used when multiple elements use the same class */
+section[class="post"] {
+    background-color: #f1faee;
+}
+
+/* * matches any substring that contains the word google */
+a[href*="google"] {
+    color: #1d3557;
 }
