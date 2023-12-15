@@ -100,5 +100,9 @@ a[href*="google"] {
 
 /* matches any substring that end with .org */
 a[href$=".org"] {
-    color: #1d3557;
+    color: #571d36;
+}
+
+button:hover {
+    background-color: #457b9d;
 }

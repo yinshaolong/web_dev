@@ -35,3 +35,17 @@ select all <a> that are direct children of <li>
 li > a {
   color: red;
 }
+===================================================================================================
+Pseudo Classes
+Keyword added to a selector that specifies a special state of the selected element(s)
+must start with a colon
+
+:active
+:checked
+:first
+:first-child
+:hover
+:last-child
+:not()
+:nth-child()
+:nth-of-type()
