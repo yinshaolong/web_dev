@@ -20,3 +20,8 @@ a {
 * {
     background-color: pink;
 }
+
+/* selects all <a> nested in <li> */
+li a {
+    color: teal;
+}
